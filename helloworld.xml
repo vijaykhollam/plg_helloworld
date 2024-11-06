@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="system" method="upgrade">
+    <name>plg_helloworld</name>
+    <version>1.0.0</version>
+    <creationDate>2024-11-06</creationDate>
+    <author>Your Name</author>
+    <authorEmail>youremail@example.com</authorEmail>
+    <copyright>(C) 2024 Your Name. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <description>A simple Hello World plugin for Joomla 4</description>
+    <files>
+        <filename plugin="helloworld">helloworld.php</filename>
+    </files>
+    <languages>
+        <language tag="en-GB">en-GB.plg_system_helloworld.ini</language>
+    </languages>
+</extension>
