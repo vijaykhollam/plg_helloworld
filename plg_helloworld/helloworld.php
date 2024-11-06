@@ -26,12 +26,12 @@ class PlgSystemHelloworld extends CMSPlugin
 		}
 
 		// Log the selected greeting message with a custom plugin identifier
-		Log::add($greeting . ' Hello from the HelloWorld Plugin.', Log::INFO, 'plg_system_helloworld');
+		JLog::add($greeting . ' Hello from the HelloWorld Plugin.', Log::INFO, 'plg_system_helloworld');
 
 		// Example of string manipulation: replace "Hello" with "Hi" in a sample message
 		$message = str_replace('Hello', 'Hi', 'Hello from Joomla Plugin');
 		
 		// Log the modified message at DEBUG level for troubleshooting
-		Log::add('Modified Message: ' . $message, Log::DEBUG, 'plg_system_helloworld');
+		JLog::add('Modified Message: ' . $message, Log::DEBUG, 'plg_system_helloworld');
     }
 }
